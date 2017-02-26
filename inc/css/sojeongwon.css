@@ -30,3 +30,76 @@
 	width: 200px;
 	border-radius: 50%;
 }
+.skills-section {
+	height: auto;
+	padding-bottom: 150px;
+}
+.skills-section ul {
+	padding: 0;
+	list-style-type: none;
+	text-align: left;
+	height: auto;
+}
+.skills-section ul li {
+	display: block;
+	margin-top: 20px;
+}
+.skills-section ul li div {
+	display: inline-block;
+	vertical-align: top;
+}
+.skills-section ul li div.title {
+	width: 25%;
+	font-size: 25px;
+}
+.skills-section ul li div.title p {
+	display: inline-block;
+}
+.skills-section ul li div.title p:first-child {
+	width: 50px;
+}
+.skills-section ul li div.detail {
+	width: 70%;
+	margin-left: 10px;
+	font-size: 20px;
+	word-break: break-all;
+}
+.projects-section {
+	height: auto;
+	padding-bottom: 150px;
+}
+.projects-section ul {
+	list-style-type: none;
+	text-align: left;
+}
+.projects-section ul li {
+	margin-top: 20px;
+}
+.projects-section ul li div.site {
+	display: inline-block;
+	position: relative;
+	box-shadow: 0 0px 20px 2px rgba(0, 0, 0, 0.1);
+	box-sizing: content-box;
+	width: 300px;
+	height: 200px;
+}
+.projects-section ul li div.site img{
+	width: 300px;
+	height: 200px;
+}
+.projects-section ul li div.site:after {
+	content: "";
+	display: block;
+	position: absolute;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+  	cursor: pointer;
+}
+.projects-section ul li div.detail {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+	width: 450px;
+}
