@@ -100,6 +100,7 @@
 .projects-section ul li div.detail {
 	display: inline-block;
 	vertical-align: middle;
+	word-break: break-all;
 	margin-left: 10px;
 	width: 450px;
 }
