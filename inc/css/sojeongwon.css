@@ -101,6 +101,7 @@
 	display: inline-block;
 	vertical-align: middle;
 	word-break: break-all;
-	margin-left: 10px;
-	width: 450px;
+	margin-left: 30px;
+	width: 70%;
+	max-width: 700px;
 }
