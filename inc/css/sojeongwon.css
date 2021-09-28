@@ -23,7 +23,7 @@
 	background-image: url("../../img/intro.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 0 30%;
+	background-position: 60% 70%;
 	color: #fff;
 }
 .contact-section .profile img {
@@ -42,14 +42,16 @@
 }
 .skills-section ul li {
 	display: block;
-	margin-top: 20px;
+	margin: 20px 0;
+	padding: 20px 0;
+    height: fit-content;
+    overflow: auto;
 }
 .skills-section ul li div {
 	display: inline-block;
 	vertical-align: top;
 }
 .skills-section ul li div.title {
-	width: 25%;
 	font-size: 25px;
 }
 .skills-section ul li div.title p {
@@ -59,8 +61,6 @@
 	width: 50px;
 }
 .skills-section ul li div.detail {
-	width: 70%;
-	margin-left: 10px;
 	font-size: 20px;
 	word-break: break-all;
 }
@@ -69,6 +69,7 @@
 	padding-bottom: 150px;
 }
 .projects-section ul {
+	padding-left: 0;
 	list-style-type: none;
 	text-align: left;
 }
@@ -76,16 +77,16 @@
 	margin-top: 20px;
 	padding: 20px;
     border-top: rgba(0,0,0,0.1) 1px solid;
+	height: fit-content;
+	overflow: auto;
 }
 .projects-section ul li div.site {
 	display: inline-block;
 	position: relative;
-	box-shadow: 0 0px 20px 2px rgba(0, 0, 0, 0.1);
-	box-sizing: content-box;
-	width: 300px;
-	height: 200px;
 }
 .projects-section ul li div.site img{
+	box-shadow: 0 0px 20px 2px rgba(0, 0, 0, 0.1);
+	box-sizing: content-box;
 	width: 300px;
 	height: 200px;
 }
@@ -103,7 +104,4 @@
 	display: inline-block;
 	vertical-align: middle;
 	word-break: break-all;
-	margin-left: 30px;
-	width: 70%;
-	max-width: 700px;
 }
