@@ -74,6 +74,8 @@
 }
 .projects-section ul li {
 	margin-top: 20px;
+	padding: 20px;
+    border-top: rgba(0,0,0,0.1) 1px solid;
 }
 .projects-section ul li div.site {
 	display: inline-block;
